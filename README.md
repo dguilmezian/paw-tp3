@@ -19,7 +19,11 @@
 </p>
 <h3>7) ¿Qué es el view port? ¿Cómo se configura? ¿qué problema soluciona?</h3>
 <h3>8) ¿Qué son las media querys? Enumere los distintos tipos de medios y las principales características de cada uno de ellos.</h3>
-<p></p>
+<p>Una media querie sirve para saber en que sistema se esta viendo la pagina web en ese instante y de acuerdo a ello se aplican unas reglas de estilo u otras.
+    <li>Se pueden usar para un menu, donde en una pantalla wide se puede ver un menu a lo ancho con los items mientras que si se accede por un teléfono móvil se visualiza mediante un menu hamburguesa</li>
+    <li>Para la cantidad de columnas según el ancho de la pantalla</li> 
+    <li>Para mostrar o esconder elementos</li> 
+</p>
 <h3>9) ¿En qué circunstancias se pueden utilizar las variables css? ¿Qué problemas pueden traer aparejadas? ¿Cuándo consideras que sería bueno utilizarlas?</h3>
 <h3>10) CSS Grid Layout ¿Qué es? Explicar las reglas que intervienen en el armado de una grilla. ¿Qué ventajas y desventajas tiene frente a otros Layouts?</h3>
 <h3>11) ¿Qué puntos en común y en que se diferencian las Material Design Guidelines de Google y las Human Interface Guidelines de Apple?</h3>
