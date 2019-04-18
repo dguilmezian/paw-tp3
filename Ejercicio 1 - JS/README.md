@@ -1,0 +1,2 @@
+<h3>1) Implementar una librería que permita insertar un juego tipo Buscaminas en un sitio web. Descripción del Juego:</h3>
+<a href="https://es.wikipedia.org/wiki/Buscaminas#Reglas">https://es.wikipedia.org/wiki/Buscaminas#Reglas</a>
