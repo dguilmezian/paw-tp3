@@ -1,0 +1,100 @@
+@import url(reset.css);
+
+body {
+  color: Black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.tableroFacil {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  background-color: black;
+}
+
+.tableroFacil div{
+  cursor: pointer;
+  display: inline-table;
+  float: left;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 2px;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tableroMedio {
+  margin: auto;
+  width: 480px;
+  height: 480px;
+  padding: 5px;
+  background-color: black;
+}
+
+.tableroMedio div{
+  cursor: pointer;
+  display: inline-table;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tableroDificil {
+  margin: auto;
+  width: 900px;
+  height: 480px;
+  padding: 5px;
+  background-color: black;
+}
+
+.tableroDificil  div{
+  cursor: pointer;
+  display: inline-table;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cerrado {
+  background-color: gray;
+}
+
+.abierto {
+  background-color: white;
+}
+
+.bandera {
+  background-image: url('../images/bandera.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.pregunta {
+  background-image: url('../images/pregunta.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mina { 
+  background-image: url('../images/bomba.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscaminas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h1>Buscaminas</h1>
+	<h3>Dificultad</h3>
+  	<input type="button" class="boton" name="Facil" value="Facil" onclick="iniciarJuegoFacil();"> 
+  	<input type="button" class="boton" name="Medio" value="Medio" onclick="iniciarJuegoMedio();"> 
+  	<input type="button" class="boton" name="Dificil" value="Dificil" onclick="iniciarJuegoDificil();"> 
+	<hr>
+	<div id="tablero" class="tableroFacil"></div>
+	<hr>
+
+  <script src="js/confs.js"></script>
+  <script src="js/juego.js"></script>
+</body>
+</html>
