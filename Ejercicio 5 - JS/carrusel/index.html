@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrusel</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="carrusel">
+    <div class="imagenes"></div>
+  </div>
+
+  <div id="progress">
+    <div id="bar"></div>
+  </div>
+
+  <div class="controles">
+    <button id="retroceder" class="button-control" onclick="retroceder()">&#10094</button>
+    <button id="play" class="button-control" onclick="play()">Play</button>
+    <button id="animacion" class="button-animacion" onclick="cambiarAnimacion()">Animacion</button>
+    <button id="stop" class="button-control" onclick="stop()" disabled>Stop</button>
+    <button id="avanzar" class="button-control" onclick="avanzar()">&#10095</button>
+  </div>
+  <div class="items"></div>
+
+  <script src="js/confs.js"></script>
+  <script src="js/juego.js"></script>
+</body>
+</html>

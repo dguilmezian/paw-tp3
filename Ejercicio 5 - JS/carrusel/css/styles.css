@@ -1,0 +1,116 @@
+@import url(reset.css);
+
+.carrusel {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+} 
+
+.button-control{
+  height: 30px;
+  width: 50px;
+  margin: 0 2px;
+  border-radius: 12px;
+}
+
+.button-animacion{
+  height: 30px;
+  width: 100px;
+  margin: 0 2px;
+  border-radius: 12px;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+}
+
+.imagenes {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.imagen {display: none}
+
+.controles{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.items {
+  text-align:center;
+}
+
+.item {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 100%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .item:hover {
+  background-color: #717171;
+}
+
+.animacion-transparencia {
+  -webkit-animation-name: transparencia;
+  -webkit-animation-duration: 1.5s;
+  animation-name: transparencia;
+  animation-duration: 1.5s;
+}
+
+@keyframes transparencia {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+
+.animacion-top{
+  position:relative;
+  animation:animaciontop 0.8s
+}
+  
+@keyframes animaciontop{
+  from{top:-100px;opacity:0} 
+  to{top:0;opacity:1}
+}
+
+.animacion-bottom{
+  position:relative;
+  animation:animacionbottom 0.8s
+}
+  
+@keyframes animacionbottom{
+  from{bottom:-100px;opacity:0} 
+  to{bottom:0;opacity:1}
+}
+
+.animacion-escala{
+  animation-name: animacionescala;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-delay: 0s;
+}
+
+@keyframes animacionescala {
+  0 {transform:scale(1);}
+  10% {transform:scale(0.4, 1);}
+  15%, 100% {transform:scale(1);}
+ }
+
+ #progress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#bar {
+  width: 0%;
+  height: 10px;
+  background-color: #4CAF50;
+}
