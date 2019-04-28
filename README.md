@@ -63,7 +63,14 @@
 <p>Uno de los mayores problemas del uso de variables CSS es que no todos los navegadores lo soportan.</p>
 
 <h3>10) CSS Grid Layout ¿Qué es? Explicar las reglas que intervienen en el armado de una grilla. ¿Qué ventajas y desventajas tiene frente a otros Layouts?</h3>
-
+<p>Es un módulo CSS que sirve para dividir la estructura de nuestra web en una grilla de dos dimensiones.
+Los elementos que hay que definir son:
+<li>Columnas: son las lineas verticales de la grilla</li>
+<li>Filas: son las lineas horizontales de la grilla</li>
+<li>Gaps: es el espacio que hay entre las columnas y las filas</li>
+<li>Lineas: son las lineas que existen entre las colmnas y las filas</li>
+</p>
+<p>En comparación con Flexbox, CSS Grid permite ubicar los elementos en dos dimensiones (filas y colmnas) mientras que Flexbox solo en una dimension (filas o columnas). Flexbox es mas orientado a los componentes mientras que CSS Grid esta orientado a la estructura. </p>
 <h3>11) ¿Qué puntos en común y en que se diferencian las Material Design Guidelines de Google y las Human Interface Guidelines de Apple?</h3>
 <p>Tanto Google como Apple han desarrollado sus propios conjuntos de reglas, que indican cómo deberían ser sus aplicaciones en sus respectivos dispositivos. Los dispositivos de Google se basan principalmente en Material Design, mientras que Apple se adhiere a las pautas de Human Interface. Si bien ambos buscan mejorar la experiencia de los usuarios (haciendo interfaces de uso más intuitivas, aprendibles y constantes), definiendo una apariencia común para sus aplicaciones, existen ciertas diferencias entre estos.</p>
 <p>En cuanto a la profuncidad de los elementos. Google se ha inspirado en el diseño de movimientos planos, haciendo creer a las personas que interactuan con sus componentes como si fueran hojas de papel apiladas una encima de la otra. Mientras busca una profundidad en sus aplicaciones, utilizando componentes como sus botones y mensajes de texto con fondo borroso para crear la sensación de que los elementos están flotando y existen en su propio espacio.</p>
