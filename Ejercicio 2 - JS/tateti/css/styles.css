@@ -1,0 +1,76 @@
+*, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Helvetica neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #0074D9;
+}
+
+h2 {
+    color: #111;
+}
+
+b {
+    color: #FFDC00;
+}
+
+body {
+    font: normal 16px comic sans ms;
+    text-align: center;
+  }
+  
+  #ta-te-ti {
+    cell-spacing: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin: 30px auto;
+  }
+  
+  #ta-te-ti td {
+    border: 2px solid #000;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font: bold 60px comic sans ms;
+  }
+  
+  #ta-te-ti tr:first-child td {
+    border-top: none
+  }
+  
+  #ta-te-ti tr:last-child td {
+    border-bottom: none
+  }
+  
+  #ta-te-ti tr td:first-child {
+    border-left: none;
+  }
+  
+  #ta-te-ti tr td:last-child {
+    border-right: none;
+  }
+  
+  #ta-te-ti td.X {
+    color: #ED676B; 
+  }
+  
+  #ta-te-ti td.O {
+    color: #23916B;
+  }
+  
+  #scoreboard .score {
+    text-align: center;
+    font-size: 30px
+  }
+  
+  #scoreboard .score#player1 {
+    color: #ED676B;
+  }
+  
+  #scoreboard .score#player2 {
+    color: #23916B;
+  }

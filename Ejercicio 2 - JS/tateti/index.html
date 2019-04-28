@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ta Te Ti</title>
+</head>
+
+<body>
+    <table id="marcador" align="center">
+        <tr>
+            <td> Jugador 1 </td>
+            <td width="30"> &nbsp; </td>
+            <td> Jugador 2 </td>
+        </tr>
+        <tr>
+            <td class="score" id="jugador1">
+                0
+            </td>
+            <td> &nbsp; </td>
+            <td class="score" id="jugador2">
+                0
+            </td>
+        </tr>
+    </table>
+    <div id="placeholder"></div>
+    <button onclick="reiniciar()">
+        Reiniciar
+    </button>
+    <select onchange="reiniciar(this.value)">        
+        <option value="3" selected="">
+            3 X 3
+        </option>
+        <option value="4">
+            4 X 4
+        </option>
+        <option value="5">
+            5 X 5
+        </option>
+        <option value="6">
+            6 X 6
+        </option>
+    </select>
+</body>
+<script src="js/juego.js"></script>
+</html>
